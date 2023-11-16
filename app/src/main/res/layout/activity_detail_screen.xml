@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailScreen">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="442dp"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/intan"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="-298dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_margin="10dp"
+        android:text="Ananda Intan Pratiwi" />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+
+        android:text="mahasiswa yang juga menjabat penghulu Kesultanan Ngayogyakarta Hadiningrat pada masa itu. intan telah mempelopori kebangkitan ummat Islam untuk menyadari nasibnya sebagai bangsa terjajah yang masih harus belajar dan berbuat. " />
+
+
+</LinearLayout>
